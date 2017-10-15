@@ -9,6 +9,11 @@
   font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
 }
 
+.hidden-text {
+  text-indent: -10000px;
+  position: absolute;
+}
+
 .page {
   background-color: $paper-white;
   font: 15px/21px "Droid Serif",Helvetica,Arial,sans-serif;

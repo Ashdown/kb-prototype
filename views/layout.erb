@@ -8,6 +8,7 @@
 </head>
 <body>
 <div class="page">
+    <%= erb :'_partials/_main-navigation', :locals => {'url' => '/'} %>
     <div class="page-content">
         <%= yield %>
     </div>
