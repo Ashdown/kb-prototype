@@ -1,14 +1,14 @@
 @import 'variables';
 @import 'mixins';
 
-.home-page {
+.campaign-page {
   .text {
     display: block;
   }
 }
 
 @include respond-to(tablet) {
-  .home-page {
+  .campaign-page {
     .celebration-image {
       float: left;
       margin-right: 16px;
