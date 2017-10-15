@@ -31,6 +31,14 @@
 
   .page-header {
     color: $header-black;
+    font-size: 16px;
+    font-family: 'labourface-bold', Helvetica, Arial, sans-serif;
+    margin-top: 10px;
+    text-shadow: $white 0 1px;
+  }
+
+  .sub-header {
+    color: $header-black;
     font-size: 13px;
     font-family: 'labourface-bold', Helvetica, Arial, sans-serif;
     margin: 5px 0;
@@ -51,6 +59,15 @@
     margin: 5px 0;
   }
 
+}
+
+@include respond-to(tablet) {
+  .page {
+    .page-header {
+      font-size: 40px;
+      line-height: 48px;
+    }
+  }
 }
 
 @include respond-to(desktop) {
