@@ -45,6 +45,12 @@
     text-shadow: none;
   }
 
+  .para {
+    color: #1e1e1e;
+    font: 16px/24px 'Droid Sans', sans-serif;
+    margin: 5px 0;
+  }
+
 }
 
 @include respond-to(desktop) {
