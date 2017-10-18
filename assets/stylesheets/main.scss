@@ -59,6 +59,10 @@
     margin: 5px 0;
   }
 
+  .sidebar-container {
+    position: relative;
+  }
+
 }
 
 @include respond-to(tablet) {
@@ -66,6 +70,9 @@
     .page-header {
       font-size: 40px;
       line-height: 48px;
+    }
+    .sidebar-container {
+      padding-right: 240px;
     }
   }
 }
